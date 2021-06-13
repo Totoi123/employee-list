@@ -1,16 +1,134 @@
-html,
-body {
-  padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Quicksand";
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+body {
+  background: #f2f2f2;
+}
+
+.content {
+  width: 1200px;
+  margin: 0 auto;
+  height: 100vh;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+hr {
+  width: 97%;
+  margin: 0 auto;
+  border-top: 1px solid lightgrey;
+}
+
+.navbar .logo {
+  color: darkslategrey;
+  font-size: 24px;
+}
+
+.navbar .links a {
+  text-decoration: none;
+  margin-right: 30px;
+  font-size: 20px;
+  font-weight: light;
+  color: darkslategrey;
+}
+
+.footer {
+  width: 1200px;
+  margin-top: 130px;
+
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: darkslategrey;
+}
+
+.wrapper {
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.wrapper h1 {
+  color: darkslategrey;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.wrapper p {
+  margin-top: 10px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.btn {
+  margin-top: 40px;
+  width: 150px;
+  height: 40px;
+  background-color: darkslategrey;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.btn a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.not-found {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.not-found h1 {
+  font-size: 80px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.not-found p {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.not-found p,
 a {
-  color: inherit;
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+.employee {
+  width: 100%;
+  height: 70px;
+  padding: 25px;
+  background: #fff;
+  display: block;
+  margin: 20px 10px;
+  border-left: 8px solid #fff;
+}
+
+.employee h3 {
+  color: darkslategrey;
+}
+
+.employee:hover {
+  border-left: 8px solid #4979ff;
+}
+
+.detail-wrapper {
+  margin-top: 20px;
+  letter-spacing: 3px;
 }
